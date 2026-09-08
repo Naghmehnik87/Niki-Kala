@@ -1,1 +1,9 @@
+# macOS
 .DS_Store
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# OS
+Thumbs.db
