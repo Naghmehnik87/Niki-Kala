@@ -121,6 +121,19 @@
                         <a href="shop.html" class="nav-main__link">About</a>
 
                     </nav>
+                    <form action="#" class="search js-search ms-auto header-desktop-only" role="search"
+                        autocomplete="off">
+                        <div class="search__field">
+                            <i class="bi bi-search search__icon" aria-hidden="true"></i>
+                            <label for="searchdesktop" class="visually-hidden">Search Product</label>
+                            <input type="search" class="search__input" id="searchdesktop" name="q" role="combobox"
+                                aria-expanded="false" aria-controls="searchResultsDesktop" aria-autocomplete="list">
+                            <button class="search__clear" type="button" aria-label="Clear search">
+                                <i class="bi bi-x-lg" aria-hidden="true"></i>
+                            </button>
+                            <div class="autocomplete" id="searchResultsDesktop" role="listbox" aria-label="Search suggestion"></div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
